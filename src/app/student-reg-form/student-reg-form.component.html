@@ -1,0 +1,47 @@
+<div class="jumbotron">
+    <h1>Student Registration Form</h1>
+    <div class="table tabl-bordered bg-secondary text-danger">
+        <form [formGroup]="form" (ngSubmit)="register()">
+            <div>
+                <label>
+                    Student Name:
+                </label>
+                <input type="text" placeholder="Enter the Name" formControlName="stud_name">
+            </div>
+            <div>
+                <label>
+                    Student Email
+                </label>
+                <input type="text" placeholder="Enter the Email" formControlName="stud_email">
+            </div>
+            <div>
+                <label>
+                    Student Age
+                </label>
+                <input type="number" placeholder="Enter the Age" formControlName="stud_age">
+            </div>
+            <div>
+                <label>
+                Are Your Graduate?
+                </label>
+                <input type="checkbox" formControlName="stud_isGraduate"/>
+            </div>
+            <div>
+                <label>
+                    Student Branch
+                </label>
+               <select formControlName="stud_branch" >
+                   <option *ngFor="let b of  graduation_stream" [value]="b">
+                       {{b}}
+                   </option>
+               </select>
+            </div>
+            <div> &nbsp; &nbsp; &nbsp; &nbsp;
+                <button type="submit">Register</button>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <button type="reset">Clear All</button>
+            </div>
+        </form>
+    </div>
+   
+</div>

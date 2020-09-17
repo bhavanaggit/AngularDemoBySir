@@ -1,0 +1,56 @@
+<!--<br>
+<br>
+<div *ngIf="!isShowDivIf">
+    <img src="../../assets/13.jpg">
+    <h3>Rose</h3>
+</div>
+<div *ngIf="isShowDivIf">
+
+    <img src="../../assets/14.jpg">
+    <h3>Daisy</h3>
+</div>
+<button (click)=toggle1() id="bt">click here
+</button>
+<hr>
+<br>
+
+    <button (click)=toggle2()>Cars</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button (click)=toggle2()>Bikes</button>
+    <div *ngIf="!isShowUlIf" style="display: inline;">
+        <h5>Cars</h5>
+        <ul>
+            <li>BMW</li>
+            <li>Nano</li>
+            <li>Balino</li>
+            <li>Dustar</li>
+        </ul>
+    </div>
+    
+    <div *ngIf="isShowUlIf">
+        <h5>Bikes</h5>
+        <ul>
+            <li>Pulsar</li>
+            <li>Passion</li>
+            <li>Hyabusa</li>
+            <li>Ninja</li>
+        </ul>
+    </div>
+-->
+<p>users works!</p>
+    <table>
+      <tr>
+      <th>username</th>
+      <th>password</th>
+      <th>email</th>
+      <th>mobile</th>
+      </tr>
+      <tr *ngFor="let a of users">
+        <td>{{a.username}}</td>
+        <td>{{a.password}}</td>
+        <td>{{a.email}}</td>
+        <td>{{a.mobile}}</td>
+      </tr>
+    </table>
+    

@@ -1,0 +1,22 @@
+<p>---------------------------------directory component--------------------------------</p>
+<div *ngIf="cond">Hello Directory Everyone</div>
+
+<div *ngIf="cond1; then thenpart; else elsepart"></div>
+<ng-template #thenpart>
+cond1 then part
+</ng-template>
+<ng-template #elsepart>
+    cond1 else part
+</ng-template>
+
+<div *ngFor="let car of cars">
+    <h1>{{car}}</h1>
+</div>
+<ul *ngFor="let car of cars">
+    <li>{{car}}</li>
+</ul>
+<div [ngSwitch]="mychoice">
+    <div *ngSwitchCase="'BMW'">BMW</div>
+    <div *ngSwitchCase="'nano'">nano</div>
+
+</div>

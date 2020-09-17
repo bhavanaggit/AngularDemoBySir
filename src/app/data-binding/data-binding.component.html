@@ -1,0 +1,19 @@
+<p>data-binding works!</p>
+
+    <h1>Bhavana</h1>
+<!--Isolation-->
+<h3>{{name}}</h3>
+<!--Property Binding-->
+<img [src]="imgPath" [alt]="imgName">
+<div>{{imgName}}</div>
+<div>
+    <!--event binding-->
+    <button (click)=greet()>click on it</button>
+    <!--two way binding-->
+    <input type="text" [(ngModel)]="inputData">
+    <strong>{{inputData}}</strong>
+    <br>
+    <button class="btn btn-primary">hello</button>
+</div>
+<hr>
+<img [src]="imgPath">

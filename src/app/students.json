@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "stud_name": " pooja",
+      "stud_email": " poja@ymail.com",
+      "stud_age": 28,
+      "stud_isGraduate": " ",
+      "stud_branch": "Comp Sci",
+      "id": 2
+    },
+    {
+      "stud_name": " Neha",
+      "stud_email": " Neha@123@gmail.com",
+      "stud_age": 26,
+      "stud_isGraduate": " ",
+      "stud_branch": "E&TC",
+      "id": 3
+    },
+    {
+      "stud_name": " Urmila",
+      "stud_email": " Avhad@gmail.com",
+      "stud_age": 25,
+      "stud_isGraduate": " ",
+      "stud_branch": "IT",
+      "id": 4
+    },
+    {
+      "stud_name": " rahul",
+      "stud_email": "rai@gmail.com",
+      "stud_age": 25,
+      "stud_isGraduate": " ",
+      "stud_branch": "E&TC",
+      "id": 6
+    },
+    {
+      "stud_name": " sandeep",
+      "stud_email": "ukey@02@gmail.com",
+      "stud_age": 27,
+      "stud_isGraduate": " ",
+      "stud_branch": "Comp Sci",
+      "id": 7
+    }
+  ]
+}
